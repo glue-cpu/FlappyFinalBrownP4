@@ -31,5 +31,6 @@ public class bird : MonoBehaviour
     void OnCollisionEnter2D()
     {
         dead = true;
+        GameController.instance.BirdDown();
     }
 }
