@@ -32,5 +32,6 @@ public class bird : MonoBehaviour
     {
         dead = true;
         GameController.instance.BirdDown();
+        rb2d.velocity = Vector2.zero;
     }
 }
